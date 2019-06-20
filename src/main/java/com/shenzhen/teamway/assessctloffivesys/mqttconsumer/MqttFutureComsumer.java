@@ -51,7 +51,7 @@ public class MqttFutureComsumer {
             while (flagThread) {
         //for(int i = 0; i < 3; i++){
             count++;
-            //接收消息内容
+            //接收消息内容的内容发hiof加热热热热
             Future<Message> futrueMessage = connection.receive();
             Message message = futrueMessage.await();
             byte[] payload = message.getPayload();
