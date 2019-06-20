@@ -42,7 +42,7 @@ public class MqttFutureComsumer {
     private RestTemplate restTemplate;
 
     private String urlRest = "http://192.168.0.127:8080";
-    private String urlRest1 = "http://192.168.12.220:8888";
+    //private String urlRest1 = "http://192.168.12.220:8888";
 
 
     @Async("pool")
@@ -67,7 +67,7 @@ public class MqttFutureComsumer {
             //将需要持久化的消息存入数据库
             try {
                 restTemplate.postForEntity(urlRest + "/insert", json, String.class);
-                restTemplate.postForEntity(urlRest1 + "/save", json, String.class);
+                //restTemplate.postForEntity(urlRest1 + "/save", json, String.class);
                 logger.info("======================调用服务成功并成功存入数据=======================");
             }catch (Exception e){
                 e.printStackTrace();
