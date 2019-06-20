@@ -73,7 +73,7 @@ public class MqttFutureComsumer {
                 e.printStackTrace();
             }
 
-            //将收到的图片信息转换成图片
+             //将收到的图片信息转换成图片
                 /*FileOutputStream fos = new FileOutputStream("D:\\test\\teamway\\testChange"+count+".jpg"); //change path of image according to you
                 byteArray = Base64.decodeBase64(new String(payload));
                 fos.write(byteArray);*/
