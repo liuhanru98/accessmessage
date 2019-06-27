@@ -23,6 +23,6 @@ public class AssessctloffivesysApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         mqttFutureComsumer.mqttConsumer();
-        //sdfsdfsdf
+
     }
 }
