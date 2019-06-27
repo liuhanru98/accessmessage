@@ -87,7 +87,6 @@
         </dependency>
 
         <!-- 添加resttemplate依赖 -->
-        <!-- 远程调用 httpclient -->
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>

@@ -9,6 +9,7 @@ import java.util.Objects;
  * @create: 2019-05-30 16:08
  **/
 public class AccessMessage {
+
     private String Version="1.0";
     private String DeviceType;
     private String DataType;
