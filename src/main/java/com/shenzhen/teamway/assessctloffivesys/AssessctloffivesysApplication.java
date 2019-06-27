@@ -16,7 +16,6 @@ public class AssessctloffivesysApplication implements CommandLineRunner {
     private MqttFutureComsumer mqttFutureComsumer;
 
     public static void main(String[] args) {
-
         SpringApplication.run(AssessctloffivesysApplication.class, args);
     }
 
